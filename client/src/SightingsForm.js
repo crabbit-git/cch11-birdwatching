@@ -20,16 +20,16 @@ const SightingsForm = ({addSighting}) => {
     return (
         <form onSubmit={onSubmit} id="sightings-form" >
             <h2>Add a Sighting</h2>
-            <div class="formWrap">
-                <label for="species">Species:</label>
+            <div className="formWrap">
+                <label htmlFor="species">Species:</label>
                 <input onChange={onChange} type="text" id="species"  />
             </div>
-            <div class="formWrap">
-                <label for="location">Location:</label>
+            <div className="formWrap">
+                <label htmlFor="location">Location:</label>
                 <input onChange={onChange} type="text" id="location"  />
             </div>
-            <div class="formWrap">
-                <label for="date">Date:</label>
+            <div className="formWrap">
+                <label htmlFor="date">Date:</label>
                 <input onChange={onChange} type="date" id="date"  />
             </div>
 
