@@ -19,4 +19,3 @@ export const deleteSighting = (id) => {
         method: 'DELETE'
     })
 }
-
